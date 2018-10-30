@@ -16,7 +16,7 @@ export default class Showcard extends Component {
               return <li   key = { movie.Title }
                 >
                 <div className = 'card'>
-                <div className="image"><img src={movie.Poster}/>
+                <div className="image"><img src={movie.Poster} alt="film"/>
                 </div>
                 <div className="content">
                   <div className="title"><h5>{movie.Title}</h5></div>
@@ -32,7 +32,7 @@ export default class Showcard extends Component {
       );
 
     }
-    
+
   }
 
 

@@ -23,7 +23,7 @@ function BasicExample() {
       <div>
         <ul>
           <li>
-          <button type="button"><Link to="/Showcard">Showcard</Link></button>
+          <Link to="/Showcard">Showcard</Link>
 
           </li>
 
